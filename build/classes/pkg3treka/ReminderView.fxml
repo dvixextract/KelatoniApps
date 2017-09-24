@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg3treka.ReminderViewController">
+   <children>
+      <Label layoutX="56.0" layoutY="49.0" prefHeight="30.0" prefWidth="217.0" text="TimeSheets Reminder" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUserName" layoutX="24.0" layoutY="165.0" prefHeight="27.0" prefWidth="278.0" promptText="Username" />
+      <TextField fx:id="txtPassword" layoutX="24.0" layoutY="210.0" prefHeight="27.0" prefWidth="278.0" promptText="Password" />
+      <Button fx:id="submit" layoutX="24.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleSubmitEvent" prefHeight="27.0" prefWidth="278.0" text="Submit" />
+      <ComboBox layoutX="24.0" layoutY="367.0" prefHeight="27.0" prefWidth="278.0" promptText="Project" />
+      <ComboBox layoutX="24.0" layoutY="414.0" prefHeight="27.0" prefWidth="278.0" promptText="Task" />
+      <Button fx:id="start" layoutX="24.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleStartEvent" prefHeight="30.0" prefWidth="278.0" text="Start" />
+   </children>
+</AnchorPane>
